@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const DBURI =
-  "mongodb+srv://dhruvil1808:Dhruvil1234@dhruvils-db.6wkxh.mongodb.net/ChatApp?retryWrites=true&w=majority";
+  "mongodb+srv://";
 const appRoutes = require("./routes/appRoutes");
 var port = process.env.PORT || 3000;
 const app = express();
